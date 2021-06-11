@@ -1,0 +1,6 @@
+module Pods_DJRxLog_DJRxLogUITests {
+  umbrella header "Pods-DJRxLog-DJRxLogUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,14 +6,21 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class ViewController: UIViewController {
 
+    private lazy var immersionView = ImmersionView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.addSubview(immersionView)
+        immersionView.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
     }
-
-
+    
 }
+
 

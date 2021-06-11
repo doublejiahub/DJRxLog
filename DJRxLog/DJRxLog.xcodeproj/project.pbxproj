@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B9FB1ED2673592A00E87637 /* ImmersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9FB1EC2673592A00E87637 /* ImmersionView.swift */; };
+		1BB7695F26709342007762EB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7695E26709342007762EB /* ViewModel.swift */; };
 		1BBACAC926608F2A0090E1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBACAC826608F2A0090E1E3 /* AppDelegate.swift */; };
 		1BBACACB26608F2A0090E1E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBACACA26608F2A0090E1E3 /* SceneDelegate.swift */; };
 		1BBACACD26608F2A0090E1E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBACACC26608F2A0090E1E3 /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B9FB1EC2673592A00E87637 /* ImmersionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersionView.swift; sourceTree = "<group>"; };
+		1BB7695E26709342007762EB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		1BBACAC526608F2A0090E1E3 /* DJRxLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJRxLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBACAC826608F2A0090E1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BBACACA26608F2A0090E1E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				1BBACAC826608F2A0090E1E3 /* AppDelegate.swift */,
 				1BBACACA26608F2A0090E1E3 /* SceneDelegate.swift */,
 				1BBACACC26608F2A0090E1E3 /* ViewController.swift */,
+				1B9FB1EC2673592A00E87637 /* ImmersionView.swift */,
+				1BB7695E26709342007762EB /* ViewModel.swift */,
 				1BBACACE26608F2A0090E1E3 /* Main.storyboard */,
 				1BBACAD126608F2A0090E1E3 /* Assets.xcassets */,
 				1BBACAD326608F2A0090E1E3 /* LaunchScreen.storyboard */,
@@ -165,7 +171,6 @@
 				8E7CDEECB9EF6EB6EE651A26 /* Pods-DJRxLogTests.debug.xcconfig */,
 				52C9AD36830DE68DF802B1F5 /* Pods-DJRxLogTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -372,7 +377,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BBACACD26608F2A0090E1E3 /* ViewController.swift in Sources */,
+				1B9FB1ED2673592A00E87637 /* ImmersionView.swift in Sources */,
 				1BBACAC926608F2A0090E1E3 /* AppDelegate.swift in Sources */,
+				1BB7695F26709342007762EB /* ViewModel.swift in Sources */,
 				1BBACACB26608F2A0090E1E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,7 +560,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTDCL5LD6K;
 				INFOPLIST_FILE = DJRxLog/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -574,7 +581,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTDCL5LD6K;
 				INFOPLIST_FILE = DJRxLog/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,6 @@
+module Pods_DJRxLog {
+  umbrella header "Pods-DJRxLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

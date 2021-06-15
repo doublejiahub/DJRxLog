@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B9FB1ED2673592A00E87637 /* ImmersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9FB1EC2673592A00E87637 /* ImmersionView.swift */; };
-		1BB7695F26709342007762EB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7695E26709342007762EB /* ViewModel.swift */; };
+		1B9FB1F22673645D00E87637 /* ImmersionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9FB1F12673645D00E87637 /* ImmersionViewModel.swift */; };
 		1BBACAC926608F2A0090E1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBACAC826608F2A0090E1E3 /* AppDelegate.swift */; };
 		1BBACACB26608F2A0090E1E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBACACA26608F2A0090E1E3 /* SceneDelegate.swift */; };
 		1BBACACD26608F2A0090E1E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBACACC26608F2A0090E1E3 /* ViewController.swift */; };
@@ -41,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		1B9FB1EC2673592A00E87637 /* ImmersionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersionView.swift; sourceTree = "<group>"; };
-		1BB7695E26709342007762EB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1B9FB1F12673645D00E87637 /* ImmersionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersionViewModel.swift; sourceTree = "<group>"; };
 		1BBACAC526608F2A0090E1E3 /* DJRxLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJRxLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBACAC826608F2A0090E1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BBACACA26608F2A0090E1E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 				1BBACACA26608F2A0090E1E3 /* SceneDelegate.swift */,
 				1BBACACC26608F2A0090E1E3 /* ViewController.swift */,
 				1B9FB1EC2673592A00E87637 /* ImmersionView.swift */,
-				1BB7695E26709342007762EB /* ViewModel.swift */,
+				1B9FB1F12673645D00E87637 /* ImmersionViewModel.swift */,
 				1BBACACE26608F2A0090E1E3 /* Main.storyboard */,
 				1BBACAD126608F2A0090E1E3 /* Assets.xcassets */,
 				1BBACAD326608F2A0090E1E3 /* LaunchScreen.storyboard */,
@@ -376,10 +376,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B9FB1F22673645D00E87637 /* ImmersionViewModel.swift in Sources */,
 				1BBACACD26608F2A0090E1E3 /* ViewController.swift in Sources */,
 				1B9FB1ED2673592A00E87637 /* ImmersionView.swift in Sources */,
 				1BBACAC926608F2A0090E1E3 /* AppDelegate.swift in Sources */,
-				1BB7695F26709342007762EB /* ViewModel.swift in Sources */,
 				1BBACACB26608F2A0090E1E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

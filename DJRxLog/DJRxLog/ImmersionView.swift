@@ -21,6 +21,8 @@ class ImmersionView: UIView {
         btn.titleLabel?.font = UIFont.systemFont(ofSize: 13)
         btn.setTitleColor(UIColor.black, for: .normal)
         btn.layer.cornerRadius = 6
+        btn.layer.borderWidth = 1
+        btn.layer.borderColor = UIColor.black.cgColor
         btn.layer.masksToBounds = true
         return btn
     }()
@@ -42,6 +44,10 @@ class ImmersionView: UIView {
 }
 
 extension Reactive where Base: ImmersionView {
+        
+    var isFollow: Binder<Bool> {
+        return base.followButton.rx.isSelected
+    }
     
     var followTap: Observable<UIButton> {
         return base.followButton.rx.tap.map { _ in base.followButton }.asObservable()

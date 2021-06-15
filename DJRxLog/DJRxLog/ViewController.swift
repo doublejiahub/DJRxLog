@@ -12,6 +12,8 @@ import RxCocoa
 class ViewController: UIViewController {
 
     private lazy var immersionView = ImmersionView()
+    private var disposeBag = DisposeBag()
+    private var viewModel: ImmersionViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +21,9 @@ class ViewController: UIViewController {
         immersionView.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()
         }
+                
+        viewModel = ImmersionViewModel(followTap: immersionView.rx.followTap)
+        viewModel!.isFollowed.bind(to: immersionView.rx.isFollow).disposed(by: disposeBag)
     }
     
 }
